@@ -9,11 +9,8 @@ Autoscalling group configured with multi A-Z
 
 Scalling rule 
   
-    CPU Load  <= 70%  will increase node
-    CPU Load >=10% will decrease node
+    CPU Load gretor than 70%  will increase node
+    CPU Load less than 10% will decrease node
 
 
 Using 2 A-z for HA application 1a and 1c
-
-
-
