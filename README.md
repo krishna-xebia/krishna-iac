@@ -1,4 +1,19 @@
-Elastic BeanStalk template for configuration  RUBY application with high availabliliy feature and high scalibility feature.
-It will auto deploy when we pushed build on github.
-All infra is setup under the VPC layer
+Elastic BeanStalk template for Ruby application with high availabliliy and high scalibility feature.
+
+
+It will auto deploy every commit on github.
+
+All infra is setup under the AWS VPC layer
+
+Autoscalling group configured with multi A-Z
+
+Scalling rule 
+  
+    CPU Load  <= 70%  will increase node
+    CPU Load >=10% will decrease node
+
+
+Using 2 A-z for HA application 1a and 1c
+
+
 
